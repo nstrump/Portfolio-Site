@@ -23,7 +23,6 @@ body {
 	height: 47px;
 	background-size: cover;
 	background-repeat: no-repeat;
-
 }
 
 .slides-navigation a.prev{
@@ -94,7 +93,6 @@ body {
 }
 
 .chart .percent {
-	color: #000;
 	line-height: 152px;
 	display: inline-block;
 	font-size: 35px;
@@ -313,7 +311,7 @@ body {
 }
 
 .copyrightSection {
-	background-color: #000;
+	background-color: #111111;
 	color: #fff;
 	padding: 30px 5px;
 }
