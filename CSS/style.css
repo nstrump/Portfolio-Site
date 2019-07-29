@@ -60,6 +60,38 @@ body {
 	font-size: 23px;
 }
 
+#navigation {
+	background-color: #145374;
+	border-top: 5px solid #5588a3;
+	padding: 20px 10px;
+	z-index: 100;
+	width: 100%;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-toggler-icon {
+	background: url(../img/icons/menu.png);
+	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
+	opacity: .9;
+}
+
 .section {
 	padding: 100px 0;
 }
@@ -68,11 +100,25 @@ body {
 	max-width: 100%;
 }
 
+.about__name {
+	font-size: 2.5rem;
+	letter-spacing: .3em;
+	font-weight: 300;
+	margin-bottom: 30px;
+	margin-top: 45px;
+}
+
+.about__paragraph {
+	font-size: 1.25rem;
+	font-weight: 300;
+}
+
 .skillsSection,
 .contactSection {
-	background-color:#2c3e50;
+	background-color:#00334e;
 	color: #fff;
-}
+} 
+
 .skill {
 	text-align: center;
 	margin-left: 10px;
@@ -95,11 +141,50 @@ body {
 .chart .percent {
 	line-height: 152px;
 	display: inline-block;
-	font-size: 35px;
+	font-size: 1000%;
 }
 
-.chart .percent:after{
-	content: '%';
+.skill--html {
+	color: #F16529;
+}
+.skill--css {
+	color: #29A9DF;
+}
+
+.skill--js {
+	color: #F5DE19;
+}
+
+.skill--node {
+	color: #23B45D;
+}
+
+.skill--npm {
+	color: #CC3534;
+}
+
+.skill--git {
+	color: #E84E31;
+}
+
+.skill--sass {
+	color: #CE679A;
+}
+
+.skill--adobe {
+	color: #E2231A;
+}
+
+.skill--bootstrap {
+	color: #7944C5;
+}
+
+.skill--gulp {
+	color: #EB4A4B;
+}
+
+#stats {
+	background-color: #E8E8E8;
 }
 
 .squareItem {
@@ -200,6 +285,10 @@ body {
 	text-align: center;
 	padding-bottom: 40px;
 	width: 100%;
+}
+
+.portfolio__title {
+	font-size: 3rem;
 }
 
 .items li {
@@ -312,42 +401,13 @@ body {
 
 .copyrightSection {
 	background-color: #111111;
-	color: #fff;
+	border-top: 5px solid #5588a3;
+	color: #5588a3;
 	padding: 30px 5px;
 }
 
 .copyrightSection p {
 	margin: 0;
-}
-
-#navigation {
-	background-color: #2c3e50;
-	padding: 20px 10px;
-	z-index: 100;
-	width: 100%;
-}
-
-#navigation li {
-	padding: 0 10px;
-}
-
-#navigation li a {
-	color: #fff;
-}
-
-.navbar-brand,
-.navbar-brand:hover {
-	color: #fff;
-}
-
-.navbar-toggler-icon {
-	background: url(../img/icons/menu.png);
-	background-size: 100%;
-}
-
-.fixedNav #navigation {
-	position: fixed;
-	top: 0;
 }
 
 .loader {
